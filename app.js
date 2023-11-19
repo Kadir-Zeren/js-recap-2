@@ -65,15 +65,48 @@
 
 // console.log(typeof ("5" * "9"));
 
-const bol1 = 81;
-const bol2 = 9;
-console.log(bol1 / bol2);
+// const bol1 = 81;
+// const bol2 = 9;
+// console.log(bol1 / bol2);
 
-console.log(bol1 / "9");
-console.log(bol1 / "nine");
+// console.log(bol1 / "9");
+// console.log(bol1 / "nine");
 
-console.log(bol2 / 0);
-console.log(-61 / 0);
+// console.log(bol2 / 0);
+// console.log(-61 / 0);
 
-console.log(0 / 5);
-console.log(0 / -5);
+// console.log(0 / 5);
+// console.log(0 / -5);
+
+// console.log(57 / 9);
+
+const mod1 = 57;
+const mod2 = 9;
+
+console.log(mod1 % mod2);
+console.log(22 % 7);
+
+const myNumber = 967;
+
+const first = myNumber % 10;
+console.log(first);
+const second = (myNumber / 10) % 10;
+console.log(second);
+const third = myNumber / 100;
+console.log(third);
+
+console.log(
+  `third: ${Math.trunc(third)}, second: ${Math.trunc(second)}, first: ${first}`
+);
+
+const num = 56.788888;
+
+console.log(`number of circle: ${num.toFixed(3)}`);
+console.log(`number of circle: ${Math.floor(num)}`);
+console.log(`number of circle: ${Math.ceil(num)}`);
+console.log(`number of circle: ${Math.trunc(num)}`);
+console.log(`number of circle: ${Math.round(num)}`);
+
+const randomNum = Math.random() * 10;
+console.log(randomNum);
+console.log(Math.round(Math.random() * 10));
