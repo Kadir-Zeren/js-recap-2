@@ -13,3 +13,27 @@ const num2 = 10;
 const toplam = num1 + num2;
 
 console.log(toplam);
+
+const msg1 = "Hello";
+const msg2 = "World";
+
+const message = msg1 + msg2;
+
+console.log(message);
+
+const firstName = "Koray";
+const lastName = "Koksal";
+
+console.log(firstName, "", lastName);
+
+const fullName = firstName + " " + lastName;
+console.log(fullName);
+
+const fullName2 = `${firstName} ${lastName}`;
+
+console.log(fullName2);
+
+const num3 = "6";
+const num4 = "7";
+console.log(num3 + num4);
+console.log(num3 + 7);
