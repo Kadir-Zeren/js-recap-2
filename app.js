@@ -111,26 +111,54 @@
 // console.log(randomNum);
 // console.log(Math.round(Math.random() * 10));
 
-const us1 = 2;
-const us2 = 3;
-console.log(us1 ** us2);
+// const us1 = 2;
+// const us2 = 3;
+// console.log(us1 ** us2);
 
-const pi = 3.14;
-const half = 9;
+// const pi = 3.14;
+// const half = 9;
 
-const around = pi * half ** 2;
-console.log(around);
+// const around = pi * half ** 2;
+// console.log(around);
 
-let add = 6;
-let addNew = add++;
-console.log(addNew);
-console.log(addNew);
-console.log(add);
-console.log(addNew);
+// let add = 6;
+// let addNew = add++;
+// console.log(addNew);
+// console.log(addNew);
+// console.log(add);
+// console.log(addNew);
 
-let newNumber = ++addNew;
+// let newNumber = ++addNew;
 
-console.log(newNumber);
+// console.log(newNumber);
 
-console.log(--newNumber);
-console.log(newNumber--);
+// console.log(--newNumber);
+// console.log(newNumber--);
+
+let nums1 = 14;
+let nums2 = 17;
+
+// nums2 = nums2 + nums1;
+nums2 += nums1;
+console.log(nums2);
+
+let num14 = 6;
+let num15 = 3;
+num14 -= num15;
+console.log(num14);
+
+num14 = num14 * num15;
+num14 *= num15;
+console.log(num14);
+
+// num14 = num14 / num15;
+num14 /= num15;
+console.log(num14);
+
+num14 = num14 % num15;
+num14 %= num15;
+console.log(num14);
+
+num14 = num14 ** num15;
+num14 **= num15;
+console.log(num14);
