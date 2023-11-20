@@ -80,33 +80,57 @@
 
 // console.log(57 / 9);
 
-const mod1 = 57;
-const mod2 = 9;
+// const mod1 = 57;
+// const mod2 = 9;
 
-console.log(mod1 % mod2);
-console.log(22 % 7);
+// console.log(mod1 % mod2);
+// console.log(22 % 7);
 
-const myNumber = 967;
+// const myNumber = 967;
 
-const first = myNumber % 10;
-console.log(first);
-const second = (myNumber / 10) % 10;
-console.log(second);
-const third = myNumber / 100;
-console.log(third);
+// const first = myNumber % 10;
+// console.log(first);
+// const second = (myNumber / 10) % 10;
+// console.log(second);
+// const third = myNumber / 100;
+// console.log(third);
 
-console.log(
-  `third: ${Math.trunc(third)}, second: ${Math.trunc(second)}, first: ${first}`
-);
+// console.log(
+//   `third: ${Math.trunc(third)}, second: ${Math.trunc(second)}, first: ${first}`
+// );
 
-const num = 56.788888;
+// const num = 56.788888;
 
-console.log(`number of circle: ${num.toFixed(3)}`);
-console.log(`number of circle: ${Math.floor(num)}`);
-console.log(`number of circle: ${Math.ceil(num)}`);
-console.log(`number of circle: ${Math.trunc(num)}`);
-console.log(`number of circle: ${Math.round(num)}`);
+// console.log(`number of circle: ${num.toFixed(3)}`);
+// console.log(`number of circle: ${Math.floor(num)}`);
+// console.log(`number of circle: ${Math.ceil(num)}`);
+// console.log(`number of circle: ${Math.trunc(num)}`);
+// console.log(`number of circle: ${Math.round(num)}`);
 
-const randomNum = Math.random() * 10;
-console.log(randomNum);
-console.log(Math.round(Math.random() * 10));
+// const randomNum = Math.random() * 10;
+// console.log(randomNum);
+// console.log(Math.round(Math.random() * 10));
+
+const us1 = 2;
+const us2 = 3;
+console.log(us1 ** us2);
+
+const pi = 3.14;
+const half = 9;
+
+const around = pi * half ** 2;
+console.log(around);
+
+let add = 6;
+let addNew = add++;
+console.log(addNew);
+console.log(addNew);
+console.log(add);
+console.log(addNew);
+
+let newNumber = ++addNew;
+
+console.log(newNumber);
+
+console.log(--newNumber);
+console.log(newNumber--);
