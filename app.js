@@ -163,38 +163,68 @@
 // num14 **= num15;
 // console.log(num14);
 
-const num16 = 27;
-console.log(num16 == 27);
-console.log(num16 == "27");
+// const num16 = 27;
+// console.log(num16 == 27);
+// console.log(num16 == "27");
 
-console.log(num16 === 27);
-console.log(num16 === "27");
+// console.log(num16 === 27);
+// console.log(num16 === "27");
 
-const user1 = prompt("ente a number");
-const user2 = prompt("ente a number");
+// const user1 = prompt("ente a number");
+// const user2 = prompt("ente a number");
 
-console.log(user1);
-console.log(user2);
-const isSame = user1 == user2;
-console.log(isSame);
+// console.log(user1);
+// console.log(user2);
+// const isSame = user1 == user2;
+// console.log(isSame);
 
-console.log(true == 1);
-console.log(null == undefined);
+// console.log(true == 1);
+// console.log(null == undefined);
 
-console.log(true === 1);
-console.log(null === undefined);
+// console.log(true === 1);
+// console.log(null === undefined);
 
-console.log(15 != "15");
-console.log(15 !== "15");
+// console.log(15 != "15");
+// console.log(15 !== "15");
 
-console.log(15 > 5);
-console.log(15 < 5);
+// console.log(15 > 5);
+// console.log(15 < 5);
 
-console.log("15" > 5);
+// console.log("15" > 5);
 
-console.log("a" > "b");
+// console.log("a" > "b");
 
-console.log("a".charCodeAt());
-console.log("b".charCodeAt());
+// console.log("a".charCodeAt());
+// console.log("b".charCodeAt());
 
-console.log("a" > "A");
+// console.log("a" > "A");
+
+console.log(15 >= 15);
+console.log(15 <= 15);
+console.log(15 >= 16);
+
+console.log(15 >= "15");
+console.log("14" <= "15");
+
+console.log(true && true);
+console.log(" " && true);
+console.log(5 && "Hello");
+console.log(0 && "World");
+
+console.log(5 && 0);
+console.log(true && false);
+
+console.log(true || false);
+console.log(5 || 15);
+console.log(5 || 0);
+console.log("" || "Hello");
+console.log("" || 0);
+
+console.log(!true);
+console.log(!false);
+console.log(!0);
+console.log(!5);
+
+const result = ("hello" && "world") || false || (28 && 67 && !0);
+
+console.log(result);
